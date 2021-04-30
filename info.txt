@@ -1,0 +1,67 @@
+Gmail:silverio.developer@gmail.com
+pass: Developer@123
+
+https://bitbucket.org/institutovertus/
+https://nobuzz.atlassian.net/issues/?jql=order%20by%20created%20DESC
+
+GitHub:
+user : silverio1208
+silverio.developer@gmail.com
+silverio@1208
+
+Atlassian:
+email: silverio.developer@gmail.com
+user: rodrigosilverio
+pass: developer@123
+
+
+
+- config
+IP: 52.2.210.35
+Usuário: ubuntu
+Utilizar o .pem em anexo para acesso SSH
+
+Banco de Dados:
+DB_HOST=ivertus.cwgxfcn71bny.us-east-1.rds.amazonaws.com
+DB_USER=postgres
+DB_PASS=8^Y#$7vh8XiC
+DB_NAME=vertus
+
+
+￼
+
+.env File
+APP_URL=https://agenda.ivertus.com.br
+API_URL=https://api.ivertus.com.br
+NODE_ENV=production
+
+# Auth
+APP_SECRET=2067d51302c63d60990c63c172231f1b
+
+# Database
+
+DB_HOST=ivertus.cwgxfcn71bny.us-east-1.rds.amazonaws.com
+DB_USER=postgres
+DB_PASS=8^Y#$7vh8XiC
+DB_NAME=vertus
+
+# Mail
+MAIL_HOST=email-smtp.us-east-1.amazonaws.com
+MAIL_PORT=587
+MAIL_USER=AKIA3CNVSQSVSQTDDUUJ
+MAIL_PASS=BAcK/CFhEzrmFmsWo2FbddKDTkoTN6liGaNZ4GSWczS0
+MAIL_SECURE=true
+
+# TimeKit
+TIMEKIT_APP_TOKEN=live_api_key_IvxXipvMfd8nKVDMLNLx1OFCY7j80mv1
+
+# Zoom
+ZOOM_API_KEY=EpBKy2t5StiPXQ_QCFFuKw
+ZOOM_API_SECRET=cVoSzMeiFuFvsdug8LHz96KwqetKsmfWUN0D
+
+CLICKSIGN_ACCESS_TOKEN=ade1caa2-076c-487d-9ab4-71b6166e8be5
+
+API Update (Using PM2)
+git pull origin master
+yarn build
+pm2 restart 0
