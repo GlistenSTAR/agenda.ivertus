@@ -1,6 +1,6 @@
 # agenda.ivertus
 
-This project made with backend is Node, frontend is React
+This project made with backend is Node, frontend is React, db is mysql
 
 This project has been deleted by Y.S.
 
